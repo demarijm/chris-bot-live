@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+// import { useEffect, useRef } from "react";
 import {
   Configuration,
   Webchat,
@@ -33,38 +33,38 @@ function getQueryParams() {
  * A container that observes changes in its children
  * and scrolls to the bottom when new content is added.
  */
-function AutoScrollContainer({ children }) {
-  const containerRef = useRef(null);
+// function AutoScrollContainer({ children }) {
+//   const containerRef = useRef(null);
 
-  useEffect(() => {
-    const container = containerRef.current as HTMLDivElement | null;
-    if (!container) return;
+//   useEffect(() => {
+//     const container = containerRef.current as HTMLDivElement | null;
+//     if (!container) return;
 
-    // Whenever a new node is added (e.g., a new message),
-    // scroll the container to the bottom.
-    const observer = new MutationObserver(() => {
-      container.scrollTop = container.scrollHeight;
-    });
-    observer.observe(container, { childList: true, subtree: true });
+//     // Whenever a new node is added (e.g., a new message),
+//     // scroll the container to the bottom.
+//     const observer = new MutationObserver(() => {
+//       container.scrollTop = container.scrollHeight;
+//     });
+//     observer.observe(container, { childList: true, subtree: true });
 
-    // Clean up the observer on unmount
-    return () => observer.disconnect();
-  }, []);
+//     // Clean up the observer on unmount
+//     return () => observer.disconnect();
+//   }, []);
 
-  return (
-    <div
-      ref={containerRef}
-      style={{
-        maxHeight: "80%", // adjust as needed
-        overflowY: "scroll",
+//   return (
+//     <div
+//       ref={containerRef}
+//       style={{
+//         maxHeight: "80%", // adjust as needed
+//         overflowY: "scroll",
 
-        scrollBehavior: "smooth",
-      }}
-    >
-      {children}
-    </div>
-  );
-}
+//         scrollBehavior: "smooth",
+//       }}
+//     >
+//       {children}
+//     </div>
+//   );
+// }
 
 export default function App() {
   const client = useClient({ clientId });
