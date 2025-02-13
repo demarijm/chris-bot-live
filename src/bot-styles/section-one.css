@@ -1,0 +1,332 @@
+.bot-container {
+  /* Add ChatGPT-like dark background */
+  color: #ffffff;           /* light text color */
+  /* Keep your flex alignment */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+  /* Take up full viewport height (optional) */
+  min-height: 100vh;
+  /* height: 100%;  */
+}
+
+/* The chat wrapper (like the conversation area) */
+.bot-wrapper {
+  /* ChatGPT typically has a narrower “chat” card on desktop */
+  width: 50%;
+  
+  /* Full width on smaller screens */
+  @media (max-width: 1300px) {
+    width: 100%;
+  }
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem;
+  
+  /* Subtle background color and border or box-shadow 
+     for the chat “window” effect */
+}
+.theme-messageList-container {
+  margin-top: 3rem;
+}
+.theme-header-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  padding: 2 rem;
+  width: 100%;
+}
+.theme-composer-container {
+  border: 1px solid black !important;
+  position: fixed;
+  bottom: 0;
+  right: 50;
+  background-color: #f1f1f1;
+  width: 50%;
+  margin: 1rem;
+}
+.theme-messageList-container {
+  margin-bottom: 2rem;
+}
+@keyframes \#sktrkv {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  @keyframes \#1u71gqz {
+    0%,
+    40% {
+      transform: translateY(0%) scale(1);
+    }
+    20% {
+      transform: translateY(-100%) scale(1.11);
+    }
+  }
+  *,
+  ::before,
+  ::after {
+    --uxt0a3: var(--rz3pvs, /*!*/ /*!*/);
+    --d23dg5: var(--rz3pvs, /*!*/ /*!*/);
+    --7qvkhk: var(--rz3pvs, /*!*/ /*!*/);
+    --7tbd7s: var(--rz3pvs, /*!*/ /*!*/);
+    --1ymuujp: var(--rz3pvs, /*!*/ /*!*/);
+    --gg0zj1: var(--rz3pvs, /*!*/ /*!*/);
+    --167lzxa: var(--rz3pvs, /*!*/ /*!*/);
+    --vva8yi: var(--rz3pvs, /*!*/ /*!*/);
+    --as73o4: var(--rz3pvs, /*!*/ /*!*/);
+  }
+  ::backdrop {
+    --uxt0a3: var(--rz3pvs, /*!*/ /*!*/);
+    --d23dg5: var(--rz3pvs, /*!*/ /*!*/);
+    --7qvkhk: var(--rz3pvs, /*!*/ /*!*/);
+    --7tbd7s: var(--rz3pvs, /*!*/ /*!*/);
+    --1ymuujp: var(--rz3pvs, /*!*/ /*!*/);
+    --gg0zj1: var(--rz3pvs, /*!*/ /*!*/);
+    --167lzxa: var(--rz3pvs, /*!*/ /*!*/);
+    --vva8yi: var(--rz3pvs, /*!*/ /*!*/);
+    --as73o4: var(--rz3pvs, /*!*/ /*!*/);
+  }
+  *,
+  ::before,
+  ::after {
+    --1e4pbj4: 0;
+    --142admc: 0;
+    --9ouawy: 0;
+    --wnlb2r: 0;
+    --o4ir2d: 0;
+    --vkgkf8: 1;
+    --1lff04g: 1;
+    --mfoggb: translateX(var(--1e4pbj4)) translateY(var(--142admc))
+      rotate(var(--9ouawy)) skewX(var(--wnlb2r)) skewY(var(--o4ir2d))
+      scaleX(var(--vkgkf8)) scaleY(var(--1lff04g));
+  }
+  ::backdrop {
+    --1e4pbj4: 0;
+    --142admc: 0;
+    --9ouawy: 0;
+    --wnlb2r: 0;
+    --o4ir2d: 0;
+    --vkgkf8: 1;
+    --1lff04g: 1;
+    --mfoggb: translateX(var(--1e4pbj4)) translateY(var(--142admc))
+      rotate(var(--9ouawy)) skewX(var(--wnlb2r)) skewY(var(--o4ir2d))
+      scaleX(var(--vkgkf8)) scaleY(var(--1lff04g));
+  }
+  *,
+  ::before,
+  ::after {
+    --1s0t3ke: 0 0 #0000;
+    --zxn4nw: 0 0 #0000;
+    --1qg7wmx: 0 0 #0000;
+    --1764mcg: 0 0 #0000;
+  }
+  ::backdrop {
+    --1s0t3ke: 0 0 #0000;
+    --zxn4nw: 0 0 #0000;
+    --1qg7wmx: 0 0 #0000;
+    --1764mcg: 0 0 #0000;
+  }
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+  }
+  ::before,
+  ::after {
+    --328t5w: '';
+  }
+  html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    font-family: Inter, sans-serif;
+    font-feature-settings: normal;
+  }
+  body {
+    margin: 0;
+    line-height: inherit;
+  }
+  hr {
+    height: 0;
+    color: inherit;
+    border-top-width: 1px;
+  }
+  abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  a {
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+  }
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  code,
+  kbd,
+  samp,
+  pre {
+    font-family: Fira Code, monospace;
+    font-feature-settings: normal;
+    font-size: 1em;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  button,
+  select {
+    text-transform: none;
+  }
+  button,
+  [type='button'],
+  [type='reset'],
+  [type='submit'] {
+    -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none;
+  }
+  :-moz-focusring {
+    outline: auto;
+  }
+  :-moz-ui-invalid {
+    box-shadow: none;
+  }
+  progress {
+    vertical-align: baseline;
+  }
+  ::-webkit-inner-spin-button,
+  ::-webkit-outer-spin-button {
+    height: auto;
+  }
+  [type='search'] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+  }
+  ::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+  }
+  summary {
+    display: list-item;
+  }
+  p {
+    margin: 0;
+    font-size: 1.2em;
+    white-space: pre-wrap;
+    word-break: normal;
+  overflow-wrap: break-word;
+  white-space: normal;
+  }
+  blockquote,
+  dl,
+  dd,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  hr,
+  figure,
+  pre {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  fieldset {
+    margin: 0;
+    padding: 0;
+  }
+  legend {
+    padding: 0;
+  }
+  ol,
+  ul,
+  menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  textarea {
+    resize: vertical;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    opacity: 1;
+    color: #9ca3af;
+  }
+  button,
+  [role='button'] {
+    cursor: pointer;
+  }
+  :disabled {
+    cursor: default;
+  }
+  img,
+  svg,
+  video,
+  canvas,
+  audio,
+  iframe,
+  embed,
+  object {
+    display: block;
+    vertical-align: middle;
+  }

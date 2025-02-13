@@ -1,0 +1,271 @@
+
+.\#7r92y7 {
+    list-style-position: inside;
+  }
+  .\#1fiw8al {
+    border-radius: 1rem;
+  }
+  .\#1yoyac {
+    border-radius: 1.5rem;
+  }
+  .\#1sxpzkv {
+    border-radius: 9999px;
+  }
+  .\#1idyy4q {
+    border-radius: 0.5rem;
+  }
+  .\#18gp358 {
+    border-radius: 0.375rem;
+  }
+  .\#1fucycm {
+    grid-row-start: 1;
+  }
+  .\#1utjbpi {
+    text-decoration-line: underline;
+  }
+  .\#ub37eh {
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+  }
+  .\#120pnva {
+    --sc6ze8: rgba(127, 131, 137, 1);
+    --z5bexf: rgba(127, 131, 137, 0);
+    --wt1r4o: var(--sc6ze8), var(--z5bexf);
+  }
+  .\#1ih7lqb {
+    --17cwy6m: 0.2;
+  }
+  .\#ks1otn {
+    --z5bexf: rgba(96, 100, 105, 1);
+  }
+  .\#ajob42:focus-within {
+    --20lssk: 1;
+    border-color: rgba(204, 206, 211, var(--20lssk));
+  }
+  .\#tl0hja:hover {
+    --vkgkf8: 1.1;
+    --1lff04g: 1.1;
+    transform: var(--mfoggb);
+  }
+  .\#1go6ul5:hover {
+    --dxr4o8: 1;
+    color: rgba(5, 136, 240, var(--dxr4o8));
+  }
+  .\#aigrty:hover {
+    --dxr4o8: 1;
+    color: rgba(96, 100, 105, var(--dxr4o8));
+  }
+  .\#wrnn2q:hover {
+    cursor: pointer;
+  }
+  .\#pgwhp5:hover {
+    --17cwy6m: 1;
+    background-color: rgba(142, 200, 246, var(--17cwy6m));
+  }
+  .\#1opl9qh:hover {
+    --17cwy6m: 1;
+    background-color: rgba(5, 136, 240, var(--17cwy6m));
+  }
+  .\#tcneks:hover {
+    --17cwy6m: 1;
+    background-color: rgba(96, 100, 105, var(--17cwy6m));
+  }
+  .\#1wl0jei:hover {
+    --17cwy6m: 1;
+    background-color: rgba(224, 225, 228, var(--17cwy6m));
+  }
+  .\#ka5nbd:hover {
+    --17cwy6m: 1;
+    background-color: rgba(239, 240, 242, var(--17cwy6m));
+  }
+  .\#1j4dum1:hover {
+    --20lssk: 1;
+    border-color: rgba(216, 217, 222, var(--20lssk));
+  }
+  .\#1k6iveq:disabled {
+    cursor: default;
+  }
+  .\#lvqyj9:disabled {
+    display: none;
+  }
+  .\#g79k8i:disabled:hover {
+    background-color: inherit;
+  }
+  .\#1jbpqk1[data-active] {
+    --dxr4o8: 1;
+    color: rgba(27, 32, 34, var(--dxr4o8));
+  }
+  .\#1bk5mm5[data-direction='outgoing'] .\#1p7rnfo {
+    --dxr4o8: 1;
+    color: rgba(127, 131, 137, var(--dxr4o8));
+  }
+  .\#6qs5l9 *::marker,
+  .\#6qs5l9::marker {
+    --dxr4o8: 1;
+    color: rgba(127, 131, 137, var(--dxr4o8));
+  }
+  .\#zf3lqr[data-direction='system'] {
+    --dxr4o8: 1;
+    color: rgba(138, 141, 148, var(--dxr4o8));
+  }
+  .\#1qs87sa[data-disabled] {
+    --dxr4o8: 1;
+    color: rgba(138, 141, 148, var(--dxr4o8));
+  }
+  .\#1a6p8j3[data-privacy] .\#c8fxdn {
+    --dxr4o8: 1;
+    color: rgba(138, 141, 148, var(--dxr4o8));
+  }
+  .\#1a6p8j3[data-terms] .\#lqh1jk {
+    --dxr4o8: 1;
+    color: rgba(138, 141, 148, var(--dxr4o8));
+  }
+  .\#1bk5mm5:hover .\#1ri2nmz {
+    --dxr4o8: 1;
+    color: rgba(53, 64, 29, var(--dxr4o8));
+  }
+  .\#1bk5mm5[data-direction='incoming'] .\#1apcjkc {
+    --dxr4o8: 1;
+    color: rgba(96, 100, 105, var(--dxr4o8));
+  }
+  .\#105bbk4 *::marker,
+  .\#105bbk4::marker {
+    --dxr4o8: 1;
+    color: rgba(96, 100, 105, var(--dxr4o8));
+  }
+  .\#1bk5mm5:hover .\#kmjao6 {
+    --dxr4o8: 1;
+    color: rgba(239, 240, 242, var(--dxr4o8));
+  }
+  .\#1a6p8j3[data-website] .\#ncf71 {
+    --dxr4o8: 1;
+    color: rgba(244, 250, 255, var(--dxr4o8));
+  }
+  .\#1a6p8j3[data-phone] .\#14odizl {
+    --dxr4o8: 1;
+    color: rgba(248, 250, 243, var(--dxr4o8));
+  }
+  .\#1a6p8j3[data-email] .\#8qplwd {
+    --dxr4o8: 1;
+    color: rgba(254, 247, 250, var(--dxr4o8));
+  }
+  .\#1bk5mm5[data-direction='outgoing'] .\#1beetpu *::marker,
+  .\#1bk5mm5[data-direction='outgoing'] .\#1beetpu::marker {
+    --dxr4o8: 1;
+    color: rgba(255, 255, 255, var(--dxr4o8));
+  }
+  .\#1bk5mm5[data-direction='outgoing'] .\#x9v1pa {
+    --dxr4o8: 1;
+    color: rgba(255, 255, 255, var(--dxr4o8));
+  }
+  .\#17ow33j[data-type='success'] .\#tlt1i6 {
+    --dxr4o8: 1;
+    color: rgba(34, 197, 94, var(--dxr4o8));
+  }
+  .\#17ow33j[data-type='error'] .\#ypi50p {
+    --dxr4o8: 1;
+    color: rgba(239, 68, 68, var(--dxr4o8));
+  }
+  .\#gbpavf[data-state='closed'] .\#5ulrkv {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .\#anpnl0::after {
+    content: var(--328t5w);
+    animation: \#1u71gqz1.5sease-in infinite;
+  }
+  .\#pgyiw2::before {
+    content: var(--328t5w);
+    animation: \#1u71gqz1.5sease-in infinite;
+  }
+  .\#gbpavf[data-disabled] .\#14dvc75 {
+    cursor: default;
+  }
+  .\#8i13t1[data-disabled] {
+    cursor: not-allowed;
+  }
+  .\#1bk5mm5[data-direction='incoming'] .\#t4z3wc {
+    display: flex;
+  }
+  .\#1923q8b::after {
+    content: var(--328t5w);
+    height: 0.375rem;
+  }
+  .\#1omkt21::before {
+    content: var(--328t5w);
+    height: 0.375rem;
+  }
+  .\#1a6p8j3[data-privacy] .\#1yjezfp {
+    height: 1.25rem;
+  }
+  .\#1a6p8j3[data-terms] .\#1ui61qv {
+    height: 1.25rem;
+  }
+  .\#gbpavf[data-state='open'] .\#lauf0c {
+    height: 3rem;
+  }
+  .\#gbpavf[data-state='open'] .\#ff5lje {
+    height: 4rem;
+  }
+  .\#bsicnt[data-activated] {
+    display: none;
+  }
+  .\#hkymoh[data-disabled] {
+    display: none;
+  }
+  .\#1ofo9x5[data-group-activated] {
+    display: none;
+  }
+  .\#1krzp92[data-loaded='false'] {
+    display: none;
+  }
+  .\#d131sj[data-disabled='true'] .\#1cav4nn {
+    display: none;
+  }
+  .\#1ok9cd9[data-disabled] .\#179mjfv {
+    display: none;
+  }
+  .\#1a6p8j3[data-email] .\#9rkyu8 {
+    display: none;
+  }
+  .\#1a6p8j3[data-phone] .\#1evhg8f {
+    display: none;
+  }
+  .\#gbpavf[data-state='open'] .\#k39bbv {
+    display: none;
+  }
+  .\#1a6p8j3[data-website] .\#7aobku {
+    display: none;
+  }
+  .\#16axwhv[data-is-at-bottom='true'] {
+    opacity: 0;
+  }
+  .\#1a6p8j3[data-privacy] .\#146oux8 {
+    padding: 0px;
+  }
+  .\#1a6p8j3[data-terms] .\#1gjydun {
+    padding: 0px;
+  }
+  .\#6u87cn::after {
+    content: var(--328t5w);
+    width: 0.375rem;
+  }
+  .\#451cz7::before {
+    content: var(--328t5w);
+    width: 0.375rem;
+  }
+  .\#1bk5mm5[data-direction='outgoing'] .\#c8u86r {
+    --17cwy6m: 1;
+    background-color: rgba(0, 144, 255, var(--17cwy6m));
+  }
+  .\#1a6p8j3[data-website] .\#1k1j9v8 {
+    --17cwy6m: 1;
+    background-color: rgba(0, 144, 255, var(--17cwy6m));
+  }
+  .\#1th5xpp::after {
+    content: var(--328t5w);
+    --17cwy6m: 1;
+    background-color: rgba(96, 100, 105, var(--17cwy6m));
+  }
+  
